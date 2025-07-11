@@ -1,7 +1,7 @@
 variable "aws_region" {}
-# variable "vpc_cidr" {}
-# variable "private_subnet_cidr" {}
-# variable "availability_zone" {}
+variable "vpc_cidr" {}
+variable "private_subnet_cidr" {}
+variable "availability_zone" {}
 variable "instance_type" {}
 variable "key_name" {}
 variable "kali_ami_id" {}
