@@ -6,4 +6,4 @@ instance_type        = "t2.medium"
 key_name             = "DAP"
 kali_ami_id          = "ami-05765033efd970565"
 kali_instance_count  = 1
-existing_vpc_id = "vpc-"
+existing_vpc_id = "vpc-006c718afc932ade0"
