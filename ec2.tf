@@ -6,7 +6,7 @@ resource "aws_instance" "kali_vm" {
   vpc_security_group_ids      = [aws_security_group.kali_sg.id]
   key_name                    = var.key_name
   associate_public_ip_address = false
-
+ 
   tags = {
     Name = "kali-vm-${count.index + 1}"
   }
