@@ -11,12 +11,16 @@ variable "existing_vpc_id" {
   description = "VPC ID of an existing VPC"
   type        = string
 }
- 
-variable "private_subnet_cidr" {
+variable "existing_subnet_id" {
+  description = "Subnet ID of an existing subnet"
+  type=string
+}
+
+/*variable "private_subnet_cidr" {
   description = "CIDR block for the private subnet"
   type        = string
-}
- 
+}*/
+
 variable "availability_zone" {
   description = "AZ for subnet"
   type        = string
