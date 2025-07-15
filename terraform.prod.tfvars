@@ -1,9 +1,0 @@
-aws_region           = "eu-west-1"
-vpc_cidr             = "10.154.0.0/16"
-private_subnet_cidr  = "10.154.21.0/24"
-availability_zone    = "eu-west-1a"
-instance_type        = "t2.medium"
-key_name             = "DAP"
-kali_ami_id          = "ami-0d0d2f966be0e1548"
-kali_instance_count  = 1
-existing_vpc_id = "vpc-006c718afc932ade0"
